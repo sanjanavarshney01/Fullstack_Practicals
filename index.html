@@ -1,47 +1,237 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Page</title>
-</head>
-<body style="background-color: rgb(154, 226, 226)">
-    <h2>Welcome to Live Practical Book</h2>
-    <p>This is Live Practical Book for the subject Fullstack Web Development. In this book we are performing all the practicals related to Front-end web development including topics from HTML, CSS, JS and Bootstrap. This book is hosted on GitHub cloud platform. You can view all the practicals from this Book.</p>
-    <h1 style="text-align: center; background-color: darkcyan">List of Practicals</h1>
-    <p>1. Create a web page including HTML basic skeleton using Offline HTML Editor and Online Sandbox Environment. 
-        <a href="https://sanjanavarshney01.github.io/Fullstack_Practicals/Practicals/Practical-1.html">Practical-1</a>
-    </p>
-    <p>2. Create a web page showing a basic HTML structure using character Entities and span Tag.
-        <a href="https://sanjanavarshney01.github.io/Fullstack_Practicals/Practicals/Practical-2.html">Practical-2</a>
-    </p>
-    <p>3. Live your first Web-page on GitHub.
-        <a href="https://sanjanavarshney01.github.io/Fullstack_Practicals/Practicals/Practical-3.html">Practical-3</a>
-    </p>
-    <p>4. Create a website having list of all practical and their individual practical Page links.
-        <a href="https://sanjanavarshney01.github.io/Fullstack_Practicals/Practicals/Practical-4.html">Practical-4</a>
-    </p>
-    <p>5. Create a web page showing the use of Image-Map.
-        <a href="https://sanjanavarshney01.github.io/Fullstack_Practicals/Practicals/Practical-5.html">Practical-5</a>
-    </p>
-    <p>6. Create card layout using CSS layout properties.
-        <a href="https://sanjanavarshney01.github.io/Fullstack_Practicals/Practicals/Practical-6.html">Practical-6</a>
-    </p>
-    <p>7. Create a web page layout using div tags.
-        <a href="https://sanjanavarshney01.github.io/Fullstack_Practicals/Practicals/Practical-7.html">Practical-7</a>
-    </p>
-    <p>8. Create a web page having Fixed Navigation Bar with the given content.
-        <a href="https://sanjanavarshney01.github.io/Fullstack_Practicals/Practicals/Practical-8.html">Practical-8</a>
-    </p>
-    <p>9. Create a Responsive Web Layout with Responsive Navigation Bar.
-        <a href="https://sanjanavarshney01.github.io/Fullstack_Practicals/Practicals/Practical-9.html">Practical-9</a>
-    </p>
-    <p>10. Create a Responsive Side Bar Navigation Menu.
-        <a href="https://sanjanavarshney01.github.io/Fullstack_Practicals/Practicals/Practical-10.html">Practical-10</a>
-    </p>
-    <p>11. Create a Responsive Footer Template.
-        <a href="https://sanjanavarshney01.github.io/Fullstack_Practicals/Practicals/Practical-11.html">Practical-11</a>
-    </p>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practical Book</title>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .header {
+        color: white;
+        background-color: rgb(29, 29, 90);
+      }
+      table {
+        border-collapse: collapse;
+        margin: auto;
+        margin-top: 20px;
+        border: 2px solid black;
+      }
+      table,
+      tr,
+      th,
+      td {
+        text-align: center;
+        padding: 15px;
+      }
+      .name {
+        float: left;
+        border: none;
+      }
+      .link a {
+        text-decoration: none;
+        color: rgb(122, 119, 119);
+      }
+      .status {
+        color: green;
+      }
+      #un {
+        color: red;
+      }
+      tr:hover {
+        background-color: lightgray;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <thead>
+        <tr>
+          <th class="header" colspan="5">Fullstack Live Practical Book</th>
+        </tr>
+        <tr style="border-bottom: 3px solid rgb(207, 195, 195)">
+          <th>#</th>
+          <th>Practical Name</th>
+          <th>Link</th>
+          <th>Status</th>
+          <th>Tools</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr style="border-bottom: 1px solid rgb(207, 195, 195)">
+          <td>1</td>
+          <td class="name">
+            Create a web page including HTML basic skeleton using Offline HTML
+            Editor and Online Sandbox Environment.
+          </td>
+          <td class="link">
+            <a
+              href="https://sanjanavarshney01.github.io/Fullstack_Practicals/Practicals/Practical-1.html"
+              >Practical-1</a
+            >
+          </td>
+          <td class="status">Checked</td>
+          <td>
+            <i title="Edit" class="material-icons button edit"> edit </i>
+            <i title="Delete" class="material-icons button delete"> delete </i>
+          </td>
+        </tr>
+        <tr style="border-bottom: 1px solid rgb(207, 195, 195)">
+          <td>2</td>
+          <td class="name">
+            Create a web page showing a basic HTML structure using character
+            Entities and span Tag.
+          </td>
+          <td class="link">
+            <a
+              href="https://sanjanavarshney01.github.io/Fullstack_Practicals/Practicals/Practical-2.html"
+              >Practical-2</a
+            >
+          </td>
+          <td class="status">Checked</td>
+          <td>
+            <i title="Edit" class="material-icons button edit"> edit </i>
+            <i title="Delete" class="material-icons button delete"> delete </i>
+          </td>
+        </tr>
+        <tr style="border-bottom: 0.5px solid rgb(207, 195, 195)">
+          <td>3</td>
+          <td class="name">Live your first Web-page on GitHub.</td>
+          <td class="link">
+            <a
+              href="https://sanjanavarshney01.github.io/Fullstack_Practicals/Practicals/Practical-3.html"
+              >Practical-3</a
+            >
+          </td>
+          <td class="status">Checked</td>
+          <td>
+            <i title="Edit" class="material-icons button edit"> edit </i>
+            <i title="Delete" class="material-icons button delete"> delete </i>
+          </td>
+        </tr>
+        <tr style="border-bottom: 1px solid rgb(207, 195, 195)">
+          <td>4</td>
+          <td class="name">
+            Create a website having list of all practical and their individual
+            practical Page links.
+          </td>
+          <td class="link">
+            <a
+              href="https://sanjanavarshney01.github.io/Fullstack_Practicals/Practicals/Practical-4.html"
+              >Practical-4</a
+            >
+          </td>
+          <td class="status">Checked</td>
+          <td>
+            <i title="Edit" class="material-icons button edit"> edit </i>
+            <i title="Delete" class="material-icons button delete"> delete </i>
+          </td>
+        </tr>
+        <tr style="border-bottom: 1px solid rgb(207, 195, 195)">
+          <td>5</td>
+          <td class="name">Create a web page showing the use of Image-Map.</td>
+          <td class="link">
+            <a
+              href="https://sanjanavarshney01.github.io/Fullstack_Practicals/Practicals/Practical-5.html"
+              >Practical-5</a
+            >
+          </td>
+          <td class="status">Checked</td>
+          <td>
+            <i title="Edit" class="material-icons button edit"> edit </i>
+            <i title="Delete" class="material-icons button delete"> delete </i>
+          </td>
+        </tr>
+        <tr style="border-bottom: 0.5px solid rgb(207, 195, 195)">
+          <td>6</td>
+          <td class="name">Create card layout using CSS layout properties.</td>
+          <td class="link">
+            <a
+              href="https://sanjanavarshney01.github.io/Fullstack_Practicals/Practicals/Practical-6.html"
+              >Practical-6</a
+            >
+          </td>
+          <td class="status">Checked</td>
+          <td>
+            <i title="Edit" class="material-icons button edit"> edit </i>
+            <i title="Delete" class="material-icons button delete"> delete </i>
+          </td>
+        </tr>
+        <tr style="border-bottom: 0.5px solid rgb(207, 195, 195)">
+          <td>7</td>
+          <td class="name">Create a web page layout using div tags.</td>
+          <td class="link">
+            <a
+              href="https://sanjanavarshney01.github.io/Fullstack_Practicals/Practicals/Practical-7.html"
+              >Practical-7</a
+            >
+          </td>
+          <td class="status">Checked</td>
+          <td>
+            <i title="Edit" class="material-icons button edit"> edit </i>
+            <i title="Delete" class="material-icons button delete"> delete </i>
+          </td>
+        </tr>
+        <tr style="border-bottom: 0.5px solid rgb(207, 195, 195)">
+          <td>8</td>
+          <td class="name">
+            Create a web page having Fixed Navigation Bar with the given
+            content.
+          </td>
+          <td class="link">
+            <a
+              href="https://sanjanavarshney01.github.io/Fullstack_Practicals/Practicals/Practical-8.html"
+              >Practical-8</a
+            >
+          </td>
+          <td class="status">Checked</td>
+          <td>
+            <i title="Edit" class="material-icons button edit"> edit </i>
+            <i title="Delete" class="material-icons button delete"> delete </i>
+          </td>
+        </tr>
+        <tr style="border-bottom: 1px solid rgb(207, 195, 195)">
+          <td>9</td>
+          <td class="name">
+            Create a Responsive Web Layout with Responsive Navigation Bar.
+          </td>
+          <td class="link">
+            <a
+              href="https://sanjanavarshney01.github.io/Fullstack_Practicals/Practicals/Practical-9.html"
+              >Practical-9</a
+            >
+          </td>
+          <td class="status">Checked</td>
+          <td>
+            <i title="Edit" class="material-icons button edit"> edit </i>
+            <i title="Delete" class="material-icons button delete"> delete </i>
+          </td>
+        </tr>
+        <tr>
+          <td>10</td>
+          <td class="name">Create a Responsive Side Bar Navigation Menu.</td>
+          <td class="link">
+            <a
+              href="https://sanjanavarshney01.github.io/Fullstack_Practicals/Practicals/Practical-10.html"
+              >Practical-10</a
+            >
+          </td>
+          <td class="status" id="un">Un-Checked</td>
+          <td>
+            <i title="Edit" class="material-icons button edit"> edit </i>
+            <i title="Delete" class="material-icons button delete"> delete </i>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
 </html>
