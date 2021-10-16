@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practical-14</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      body {
+        background-color: rgb(100, 97, 97);
+      }
+      #heading {
+        color: white;
+        text-align: center;
+        margin-top: 50px;
+      }
+      .mat {
+        text-align: center;
+        margin-top: 40px;
+      }
+      #center {
+        text-align: center;
+        font-size: 30px;
+        width: 35px;
+        height: 35px;
+        margin: auto 45px;
+        color: yellow;
+        background-color: rgb(100, 97, 97);
+        border: none;
+      }
+      #btn1 {
+        width: 35px;
+        height: 35px;
+        background-color: yellow;
+        font-size: 25px;
+      }
+      #btn2 {
+        width: 35px;
+        height: 35px;
+        background-color: yellow;
+        font-size: 25px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 id="heading">COUNTER</h1>
+    <div class="mat">
+      <button id="btn1" onclick="btn1Click()">-</button>
+      <input type="text" id="center" value="0" />
+      <button id="btn2" onclick="btn2Click()">+</button>
+    </div>
+    <script src="./Practical-14.js"></script>
+  </body>
+</html>
